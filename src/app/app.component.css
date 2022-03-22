@@ -1,0 +1,45 @@
+div {
+    align-items: center ;
+    align-content:space-around;
+    padding: 30px;
+    
+}
+
+p {
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(228, 66, 128);
+}
+
+.centro {
+    display: flex;
+    background-color: rgb(251, 200, 251);
+    box-sizing: border-box;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    
+    
+    
+}
+
+#main-form {
+    width: 500px;
+    background-color: whitesmoke;
+}
+
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .col {
+    flex-direction: column !important;
+  }
+  .grow {
+    width: 100%;
+  }
